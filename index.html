@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Flickr Popular Public Group Feed</title>
+<link rel="stylesheet" href="css/style.css" />
+<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="js/script.js"></script>
+</head>
+<body>
+  <center>
+    <h2></h2>
+    <form id="keyword">
+    <header><p>query flickr for recent uploads of your choice!</p></header>
+        <p>please enter the flickr tags you'd like to use in the search </p>
+        <p><input type"text" autofocus id="tags" /></p>
+        <p>Please indicate the use of all tags or any tags; for <i>and</i> or <i>or</i> query</p>
+        <p><input type="radio" name="selection" id="all" value="all"></p>
+        <p>all tags</p>
+        <p><input type="radio" name="selection" id="any" value="any" checked></p>
+        <p>any tag</p>
+        <header><p>click anywhere on the page to bring the pictures!</p></header>
+    </form>
+
+	<div class="content"></div>
+	<div id="photos"></div>
+  </center>
+</body>
+</html>
